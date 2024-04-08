@@ -2,7 +2,7 @@
 
 Code for paper "Self-Supervised Learning for Medical Image Data with Anatomy-Oriented Imaging Planes." （See fig below）
 
-![fig1](\fig\fig1.png)
+![fig1](./fig/fig1.png)
 
 **Abstract.** Self-supervised learning has emerged as a powerful tool for pretraining deep networks on unlabeled data, prior to transfer learning of target tasks with limited annotation.
 The relevance between the pretraining pretext and target tasks is crucial to the success
