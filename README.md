@@ -26,7 +26,10 @@ target tasks, and superior to other recent approaches.
 2.  Automated Cardiac Diagnosis Challenge (ACDC) dataset: https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html
 
 ## Introduce
-
+1. Data and Enverioment preparing: More requirements and virtual environment creation cound be seen in requirements.txt. Download the dataset and run `preprocess.py` to generate label for Pretext tasks.
+2. Pretraining by pretext tasks: Replace the datapath in the training command of `./CMR_pretrain/pretrain.py`, and run it. After training, the model will be stored in `./experiments`. 
+3. Training for Downstream task: Replace the datapath and checkpoint path in the training command of `./CMR_downstrem/train.py`, and run it,
+4. Testing for Downstream task: Replace the datapath and checkpoint path in the testing command of `./CMR_downstrem/predict_acdc_V1.py`, and run it,which will do the test and print the result.
 
 
 ## Cite Anatomy-Oriented-SSL
